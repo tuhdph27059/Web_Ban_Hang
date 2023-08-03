@@ -1,0 +1,21 @@
+#spring.mvc.view.prefix:/WEB-INF/view/
+#spring.mvc.view.suffix:.jsp
+#server.port=27059
+#spring.datasource.url=jdbc:sqlserver://localhost:1433;databaseName=AssignmentJAVA5
+#spring.datasource.username=sa
+#spring.datasource.password=12345
+#spring.jpa.show-sql=true
+
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/view/
+      suffix: .jsp
+  datasource:
+    url: jdbc:sqlserver://localhost:1433;databaseName=AssignmentJAVA5
+    username: sa
+    password: 12345
+  jpa:
+    show-sql: true
+server:
+  port: 27059
