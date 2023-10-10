@@ -31,6 +31,9 @@ public class HoaDon {
     @Column(name = "name")
     private String name;
 
+    @Column(name = "name")
+    private String name1;
+
     public String chuyenDoi() {
         DecimalFormat df = new DecimalFormat("#,###");
         return df.format(tongTienHoaDon);
