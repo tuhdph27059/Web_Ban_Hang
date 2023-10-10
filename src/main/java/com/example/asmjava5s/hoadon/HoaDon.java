@@ -28,6 +28,9 @@ public class HoaDon {
     @Column(name = "age")
     private Integer age;
 
+    @Column(name = "name")
+    private String name;
+
     public String chuyenDoi() {
         DecimalFormat df = new DecimalFormat("#,###");
         return df.format(tongTienHoaDon);
