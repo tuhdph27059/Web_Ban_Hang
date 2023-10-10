@@ -25,6 +25,9 @@ public class HoaDon {
     @Column(name = "tongtien")
     private Float tongTienHoaDon;
 
+    @Column(name = "name")
+    private String name;
+
     public String chuyenDoi() {
         DecimalFormat df = new DecimalFormat("#,###");
         return df.format(tongTienHoaDon);
