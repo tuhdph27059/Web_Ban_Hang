@@ -25,6 +25,9 @@ public class HoaDon {
     @Column(name = "tongtien")
     private Float tongTienHoaDon;
 
+    @Column(name = "age")
+    private Integer age;
+
     @Column(name = "name")
     private String name;
 
