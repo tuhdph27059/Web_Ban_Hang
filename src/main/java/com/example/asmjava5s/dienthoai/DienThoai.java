@@ -28,6 +28,8 @@ public class DienThoai {
     private String mauSac;
     @Column(name = "namsanxuat")
     private Integer namSanXuat;
+    @Column(name = "chuthich")
+    private String chuThich;
     @Column(name = "trangthai")
     private Integer trangThai;
 }
