@@ -28,6 +28,6 @@ public class DienThoai {
     private String mauSac;
     @Column(name = "namsanxuat")
     private Integer namSanXuat;
-    @Column(name = "namhientai")
-    private Integer namHienTai;
+    @Column(name = "chuthich")
+    private String chuThich;
 }
