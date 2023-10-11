@@ -30,4 +30,6 @@ public class DienThoai {
     private Integer namSanXuat;
     @Column(name = "chuthich")
     private String chuThich;
+    @Column(name = "trangthai")
+    private Integer trangThai;
 }
